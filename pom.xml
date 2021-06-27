@@ -16,6 +16,9 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-mongodb -->
+
+
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -26,6 +29,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-mongodb -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-mongodb</artifactId>
+                <version>3.2.2</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
